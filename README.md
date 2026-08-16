@@ -1,9 +1,9 @@
 
-Predikcija cijene polovnih automobila – Regresija
+**Predikcija cijene polovnih automobila – Regresija**
 
 Cilj projekta je razviti model mašinskog učenja koji predviđa vrijednost kolone 'priceUSD'. Radi se o regresionom problemu. Model predviđa cijenu, numeričku vrijednost, a ne klasu ili kategoriju.
 
-Dataset
+**Dataset**
 
 Na raspolaganju je skup podataka:
 cars.csv
@@ -25,7 +25,7 @@ Dataset sadrži podatke o polovnim automobilima i ima sljedeće kolone:
 
 Ciljna promjenljiva je 'priceUSD'.
 
-Kako se pokreće kod
+**Kako se pokreće kod**
 
 Instalacija biblioteka iz requirements.txt:
 pip install -r requirements.txt
@@ -42,22 +42,32 @@ Python src/model_evaluation.py
 Pokretanje fajla za poređenje više modela:
 python src/model_comparision.py
 
-Modeli korišteni za testiranje
+**Modeli korišteni za testiranje**
 
 •	Linear Regression
 •	Decision Tree Regressor
 •	Random Forest Regressor
 •	Gradient Boosting Regressor
 
-Rezultati evaluacije
+**Rezultati evaluacije**
 
-Model	MAE	RMSE	R2
+Model	 MAE	 RMSE	 R2
+
+
 Random Forest 	1081.82	2864.97	0.88
+
+
 Decision Tree	1367.24	3465.29	0.83
+
+
 Gradient Boosting	1533.94	2887.62	0.88
+
+
 Linear Regression	2042.69	3982.58	0.77
 
-Izbor modela
+
+
+**Izbor modela**
 
 Najbolje rezultate pokazao je model Random Forest Regressor. 
 Izbor je izvršen na osnovu evaluacije metrika koje su prikazane u prethodnoj tabeli.
