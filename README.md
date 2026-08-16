@@ -114,16 +114,16 @@ python src/model_comparision.py
 Model	 MAE	 RMSE	 R2
 
 
-Random Forest 	1081.82	2864.97	0.88
+Random Forest 	1081.82	 2864.97	 0.88
 
 
-Decision Tree	1367.24	3465.29	0.83
+Decision Tree	1367.24	 3465.29	 0.83
 
 
-Gradient Boosting	1533.94	2887.62	0.88
+Gradient Boosting	1533.94	 2887.62	 0.88
 
 
-Linear Regression	2042.69	3982.58	0.77
+Linear Regression	2042.69	 3982.58	 0.77
 
 
 
