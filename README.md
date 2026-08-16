@@ -58,6 +58,7 @@ Gradient Boosting	1533.94	2887.62	0.88
 Linear Regression	2042.69	3982.58	0.77
 
 Izbor modela
+
 Najbolje rezultate pokazao je model Random Forest Regressor. 
 Izbor je izvršen na osnovu evaluacije metrika koje su prikazane u prethodnoj tabeli.
 Vrijednost MAE je 1081.82 USD, što znači da model griješi za 1082 USD po automobilu što predstavlja dobar rezultat kada su automobili u pitanju.
