@@ -11,23 +11,49 @@ cars.csv
 Dataset sadrži podatke o polovnim automobilima i ima sljedeće kolone:
 
 •	'make' - data marka automobila;
+
+
 •	'model' - model automobila;
+
+
 •	'priceUSD' - cijena automobila u dolarima;
+
+
 •	'year' - godina proizvodnje;
+
+
 •	'condition' - stanje automobila;
+
+
 •	'mileage(kilometers)' - pređena kilometraža;
+
+
 •	'fuel_type' - vrsta goriva;
+
+
 •	'volume(cm3) - zapremina motora;
+
+
 •	'color' - boja automobila;
+
+
 •	'transmission' - tip mjenjača;
+
+
 •	'drive_unit' - tip pogona;
+
+
 •	'segment' - klasa automobila.
+
+
 
 Ciljna promjenljiva je 'priceUSD'.
 
 **Kako se pokreće kod**
 
 Instalacija biblioteka iz requirements.txt:
+
+
 pip install -r requirements.txt
 Pokretanje fajla za čišćenje:
 python -m src.data_cleaning
