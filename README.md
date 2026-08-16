@@ -55,25 +55,59 @@ Instalacija biblioteka iz requirements.txt:
 
 
 pip install -r requirements.txt
+
+
 Pokretanje fajla za čišćenje:
+
+
 python -m src.data_cleaning
+
+
 Pokretanje fajla za inženjering karakteristika:
+
+
 python -m src.feature_engineering
+
+
 Pokretanje fajla za pretprocesiranje:
+
+
 python src/data_preprocessing.py
+
+
 Pokretanje fajla za treniranje modela:
+
+
 python src/model_training.py
+
+
 Pokretanje fajla za evaluaciju modela:
+
+
 Python src/model_evaluation.py
+
+
 Pokretanje fajla za poređenje više modela:
+
+
 python src/model_comparision.py
+
+
 
 **Modeli korišteni za testiranje**
 
 •	Linear Regression
+
+
 •	Decision Tree Regressor
+
+
 •	Random Forest Regressor
+
+
 •	Gradient Boosting Regressor
+
+
 
 **Rezultati evaluacije**
 
